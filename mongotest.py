@@ -9,6 +9,18 @@ d = {
     "surname":'Dasari'
 }
 
+d = {
+    "name":"Rohit",
+    "email":"dasarirohit123265@gmail.com",
+    "surname":'Dasari'
+}
+
+d = {
+    "name":"Rohit",
+    "email":"dasarirohit123265@gmail.com",
+    "surname":'Dasari'
+}
+
 db1 = client['mongotest']
 col1 = db1['test']
 col1.insert_one(d)
